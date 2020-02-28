@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Boilermaker workshop",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "start-dev": "http-server --port 8000 & nodemon server.js"
+    "start-dev": "http-server --port 8000 & webpack -w & nodemon server.js"
   },
   "author": "Angela Vuong",
   "license": "ISC",
