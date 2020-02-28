@@ -1,0 +1,11 @@
+{
+  "name": "boilerbaker",
+  "version": "1.0.0",
+  "description": "Boilermaker workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angela Vuong",
+  "license": "ISC"
+}
