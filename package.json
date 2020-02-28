@@ -4,7 +4,9 @@
   "description": "Boilermaker workshop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "start-dev": "http-server --port 8000 & nodemon server.js"
   },
   "author": "Angela Vuong",
   "license": "ISC",
